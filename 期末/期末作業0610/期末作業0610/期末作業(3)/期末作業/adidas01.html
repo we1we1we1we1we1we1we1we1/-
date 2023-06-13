@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body::-webkit-scrollbar {
+    display: none;
+}
+        #names{
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 0px;
+        }
+        
+        body{
+            background-image: url(830639.jpg);
+            background: linear-gradient(rgba(251, 251, 251, 0.5), rgba(36, 35, 35, 0.5)), url('830639.jpg') no-repeat 0% 20%/ cover;
+
+            width:100%;
+            height:100vh;
+            position:relative;
+        }
+        
+        .co{
+            display: flex;
+            width: 850px;
+            flex:1;
+            background-color: white;
+            flex-direction:row;
+            opacity: 0.8;
+        }
+
+        .item { 
+            display: flex;
+            flex:1; 
+            flex: 1 1 0;
+        }
+
+        .item1{
+            display: flex;
+            flex:1;
+            flex: 1 1 0;
+        }
+
+        .item2{
+            display: flex;
+            flex:1; 
+            width: 730px;
+        }
+
+        .item3{
+            display: flex;
+            flex:1 30px; 
+            height: min-content;
+            flex: 1 1 0;
+        }
+
+        .demo{
+            width:600px ;
+            height:200px ;
+            background-color: #f4ebeb;
+            margin: 80px auto 0;
+            transition: 0.5s;
+            display: flex;
+        }
+
+        /* .demo:hover{
+            background-image: url(IMG_5701.PNG);
+            
+        } */
+
+        .demo1{
+            width:600px ;
+            height:200px ;
+            background-color: #f4ebeb;
+            margin: 80px auto 0;
+            transition: 0.5s;
+            display: flex;
+            
+        }
+
+        /* .demo1:hover{
+            background-image: url(IMG_5709.PNG);
+            
+        } */
+        
+        .demo2{
+            width:600px ;
+            height:400px ;
+            background-color: #f4ebeb;
+            margin: 80px auto 0;
+            transition: 0.5s;
+            display: flex;
+        }
+
+        /* .demo2:hover{
+            background-image: url(IMG_5713.PNG);
+            
+        } */
+
+        .demo3{            
+            display: flex;
+            width:600px ;
+            height:400px ;
+            background-color: #f4ebeb;
+            margin: 80px auto 0;
+            transition: 0.5s;
+            opacity:0.8
+        }
+        .a{
+    
+            display: flex;
+            width:600px ;
+            height:400px ;
+            flex-direction: row;
+            align-content: space-between;
+            background-color: #f4ebeb;
+            
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; 
+            margin: 80px auto 0;
+            opacity: 0.8;
+
+
+        }
+        @keyframes s { 
+    0%   {background-color: rgb(224, 206, 206); left: 0px;}
+    25%  {background-color: rgb(246, 246, 189); left: 50px;}
+    50%  {background-color: rgb(251, 190, 248); left: 80px;}
+    75%  {background-color: rgb(153, 234, 153); left: 120px;}
+    100% {background-color: rgb(149, 201, 231); left: 200px;}
+}
+        .b{
+            display: flex;
+            width:600px ;
+            height:400px ;
+            flex-direction: row;
+            align-content: space-between;
+            background-color: #f4ebeb; 
+            margin: 80px auto 0;
+            opacity:0.8;
+            animation-name: k; 
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+        }
+        @keyframes k { 
+    0%   {background-color: rgb(224, 206, 206); left: 0px;}
+    25%  {background-color: rgb(246, 246, 189); left: 50px;}
+    50%  {background-color: rgb(251, 190, 248); left: 80px;}
+    75%  {background-color: rgb(153, 234, 153); left: 120px;}
+    100% {background-color: rgb(149, 201, 231); left: 200px;}
+}
+.demo:hover:hover{
+            transform:translate(100px,200px);
+            background-color: rgba(159, 252, 221, 0.5);
+        }
+        .demo1:hover:hover{
+            transform: scale(2);;
+            background-color: rgba(159, 252, 221, 0.5);
+        }
+        .demo2:hover:hover{
+            transform: skew(20deg,10deg);
+            background-color: rgba(159, 252, 221, 0.5);
+        }
+        .demo3:hover:hover{
+            transform: rotate(-90deg);
+            background-color: rgba(159, 252, 221, 0.5);
+        }
+        /* .demo3:hover{
+            background-image: url(IMG_5716.PNG);
+            
+        } */
+
+    </style>
+</head>
+<body>
+        <!-- <div class="co">
+            <div class="item">
+                <a href="adidas02.html">
+                    <img src="IMG_5701.PNG"height="500px" width="350px" alt="">
+                </a>
+            </div>
+            <div class="item1">
+                <a href="adidas03.html">
+                    <img src="IMG_5709.PNG"height="500px"  width="350px" alt="" >
+                </a>
+            </div>
+            <div class="item2">
+                <a href="adidas04.html">
+                    <img src="IMG_5713.PNG"height="500px" width="400px" alt="" >
+                </a>
+            </div>
+            <div class="item3">
+                <a href="adidas05.html">
+                    <img src="IMG_5716.PNG"height="500px" width="400px"  alt="">
+                </a>
+            </div>
+        </div> -->
+        <div class="a">
+        <div class="demo">
+            <a href="adidas02.html"></a><img src="IMG_5701.PNG" alt=""  width="300px" height="200px"></a>
+        </div>
+            
+        
+        <div class="demo1">
+            <a href="adidas03.html"><img src="IMG_5709.PNG" alt=""  width="300px" height="200px"></a>
+        </div> </div>
+            
+        <div class="b">
+
+        <div class="demo2"> 
+            <a href="adidas04.html"><img src="IMG_5713.PNG" alt="" width="300px" height="200px"></a> 
+        </div>
+            
+       
+        <div class="demo3">
+            <a href="adidas05.html"></a><img src="IMG_5716.PNG" alt="" width="300px" height="250px">
+        </div>
+            
+        
+        </div>
+</body>
+</html>

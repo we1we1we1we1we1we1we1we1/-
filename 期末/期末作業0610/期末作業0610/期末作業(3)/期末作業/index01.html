@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #names{
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        body{
+            text-align: center;
+            background-image: url(830639.jpg);
+            width:100%;
+            height:100vh;
+            position:relative;
+        }
+        
+        #main{
+            text-align: center;
+            width: 1000px;
+            height:400px;
+            position: relative;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+        }
+        #main>div{
+            width: 200px;
+            height: 400px;
+            float: left;
+            cursor:pointer;
+            position: relative;
+            transition:all 0.8s;    
+        }
+        #main>div>img{
+            width:100;
+            height:100;
+        }
+        #main>div>p{
+            height:30px;
+            width:100%;
+            background-color:rgb(#019858);
+            text-align:center;
+            font-size:18px;
+            color:white;
+            position:absolute;
+            bottom:0px;
+            left:0px;
+            text-transform:uppercase;
+            transition:all 0.3s;
+        }
+        #main:hover div{
+            width: 100px;
+            z-index: 100;
+            opacity: 1;
+        }
+        #main div:hover{
+            width: 600px;
+            z-index: 100;
+            opacity: 1;
+        }
+        #main div:hover p{
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+            letter-spacing: 10px;
+        }
+        
+            body{
+            background: linear-gradient(rgba(251, 251, 251, 0.5), rgba(36, 35, 35, 0.5)), url('830639.jpg') no-repeat 0% 20%/ cover;
+
+            width:100%;
+            height:100vh;
+            position:relative;
+        }
+
+        a{
+            text-decoration: none;
+            color: #3D1101;
+        }
+.wrap{
+ max-width: 960px;
+ margin:20px auto 0 auto;
+ height: auto;
+}
+.anim{
+            width: 150px;
+            height:150px;
+            margin-left: 120px;
+            margin-top:20px;
+            background:url(01.jpg) no-repeat;
+            background-size: cover;
+            transform:scale(1.2,1.2);
+            transform:scale(1.2,1.2);
+            transition: all 6s ease-out;
+        }
+
+        .anim:hover{
+            animation:rot_test 3s infinite linear;
+        }
+
+        @keyframes rot_test{
+            0%{
+            transform:rotate(0deg);
+            }
+            100%{
+            transform:rotate(360deg);
+            }
+        }
+        #name{
+            width: 800px;
+            height:275px;
+            position: relative;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            border-radius: 10%;
+            box-shadow: 8px 8px 5px #0c0c0c;
+            padding: 8px 12px;
+            background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+        }
+        .qwe{
+            text-align: center;
+            
+
+        }
+        .btn:hover {
+            transform: scale(1.05);
+  }
+  .btn:active {
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .2);
+  transition:1s;
+} 
+.abc{
+    box-shadow: 8px 8px 5px #444;
+    background-color:gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+     opacity:0.5;
+}
+</style>
+</head>
+
+
+<div id="qwe">
+<h1>球鞋百科</h1>
+<a href="member.html"><div class="anim"></div></a>
+</div>
+
+ <main>
+    
+
+<div id="name">
+        <p>球鞋這個名詞源自於1917年由廣告人Henry Nelson Mckinney，他為了Keds公司的廣告，而創造了「sneaker」這個字，
+    來形容他們所生產的橡膠鞋底的帆布鞋。而現在，sneaker則泛指跑鞋、網球鞋、籃球鞋等等使用橡膠或合成鞋底的運動鞋款。
+
+    在那個年代，消費者幾乎沒什麼選擇，你可以穿上帆布鞋，第一步就是All Stars系列──經典的糖果色帆布鞋。</p>
+    
+   而說到球鞋的擴展，就不得不提到Adidas，這個品牌最初由Dassler兄弟所創立，他們在1970年代初期帶來了皮革與麂皮製的球鞋，
+    當專業運動選手們開始在聯賽中穿上之後，整個球鞋的新市場就此打開。
+    
+    同樣在1980年代中期的另一個大事件，是1986年，Run DMC發行了熱門單曲《My Adidas》，
+    鼓勵了16,000粉絲在麥迪遜花園廣場演唱會上手拿著adidas球鞋揮舞。
+    隨著嘻哈文化開始成為主流，而那些饒舌歌手的穿搭方式也成為主流。
+    此時期具明顯識別標誌的鞋款突然激增，也就是你所熟知的三條斜槓、勾勾標誌等等，
+    是為了那些追求最新、最稀有的族群，可想而知，限量發售的鞋款比例也大幅成長了，發展至此，你之前知道的球鞋是屬於次文化的產物，
+    現在已經躍上媒體版面，由音樂而觸發的「球鞋文化」就此展開。</p>
+    
+</main>	
+<body>
+    <content>
+    <a href="nike001.html"><img src="nike.png" alt="" height="163px"></a>
+    <a href="adidas01.html"><img src="adidas.png" alt=""></a>
+    <a href="new balalnce01.html"><img src="new balance.png" alt="" height="163px"></a>
+    <a href="converse.html"><img src="converse.png" alt="" height="163px"></a>
+    
+            
+    
+        </content>
+    </main>
+    
+    
+    
+    </body>
+    
+
+</html>
